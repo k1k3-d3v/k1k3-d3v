@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/189249186?v=4" width="150" alt="Pixel art portrait of Enrique" />
-
 # `k1k3-d3v`
 
 ### Cybersecurity · Infrastructure · Linux · Automation · Local AI
