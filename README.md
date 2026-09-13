@@ -107,15 +107,21 @@ I have professional experience working with **Data Loss Prevention**, security a
 </p>
 
 <p align="center">
-  <a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal"><img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore the Odin repository" /></a>
-  <a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal/blob/main/Vi%CC%81deo-Odi%CC%81n.mp4"><img src="https://img.shields.io/badge/WATCH_DEMO-A371F7?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the Odin demo" /></a>
+  <a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal">
+    <img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore the Odin repository" />
+  </a>
+  <a href="https://youtu.be/6D5owxcxGcs">
+    <img src="https://img.shields.io/badge/WATCH_DEMO-A371F7?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the Odin demo" />
+  </a>
 </p>
 
-<a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal/blob/main/Vi%CC%81deo-Odi%CC%81n.mp4">
-  <img src="https://raw.githubusercontent.com/k1k3-d3v/Odin_ElAsistenteTotal/main/figures/evidence/05-dashboard-resumen.png" width="100%" alt="Odin dashboard — click to watch the video demo" />
+<a href="https://youtu.be/6D5owxcxGcs">
+  <img src="https://img.youtube.com/vi/6D5owxcxGcs/maxresdefault.jpg" width="100%" alt="Project Odin video demonstration" />
 </a>
 
-<p align="center"><sub>▶ Click the dashboard to watch Odin in action</sub></p>
+<p align="center">
+  <sub>▶ Watch the Project Odin demo — video in Spanish</sub>
+</p>
 
 ---
 
