@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Local AI pipeline</title>
+  <desc id="desc">Animated local AI request flow through Open WebUI, an agent and Ollama running with ROCm.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="278" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="28" y="38" fill="#f0f6fc" font-size="18" font-weight="700">LOCAL_AI --STATUS</text>
+    <text x="972" y="38" fill="#3fb950" font-size="13" text-anchor="end">● ONLINE</text>
+
+    <path id="pipeline" d="M130 122 H870" fill="none" stroke="#30363d" stroke-width="3" stroke-dasharray="8 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-34" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <circle r="7" fill="#39d0d8" filter="url(#glow)">
+      <animateMotion dur="4.2s" repeatCount="indefinite"><mpath href="#pipeline"/></animateMotion>
+    </circle>
+
+    <g transform="translate(40 78)">
+      <rect width="180" height="88" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <text x="90" y="39" fill="#f0f6fc" font-size="16" font-weight="700" text-anchor="middle">USER</text>
+      <text x="90" y="63" fill="#8b949e" font-size="12" text-anchor="middle">REQUEST</text>
+    </g>
+
+    <g transform="translate(285 78)">
+      <rect width="180" height="88" rx="12" fill="#0d1117" stroke="#30363d">
+        <animate attributeName="stroke" values="#30363d;#58a6ff;#30363d" dur="4.2s" begin=".8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="90" y="39" fill="#f0f6fc" font-size="16" font-weight="700" text-anchor="middle">OPEN WEBUI</text>
+      <text x="90" y="63" fill="#8b949e" font-size="12" text-anchor="middle">INTERFACE</text>
+    </g>
+
+    <g transform="translate(535 78)">
+      <rect width="180" height="88" rx="12" fill="#0d1117" stroke="#30363d">
+        <animate attributeName="stroke" values="#30363d;#a371f7;#30363d" dur="4.2s" begin="1.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="90" y="39" fill="#f0f6fc" font-size="16" font-weight="700" text-anchor="middle">LOCAL AGENT</text>
+      <text x="90" y="63" fill="#8b949e" font-size="12" text-anchor="middle">TOOLS + CONTEXT</text>
+    </g>
+
+    <g transform="translate(780 78)">
+      <rect width="180" height="88" rx="12" fill="#0d1117" stroke="#30363d">
+        <animate attributeName="stroke" values="#30363d;#39d0d8;#30363d" dur="4.2s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="90" y="39" fill="#f0f6fc" font-size="16" font-weight="700" text-anchor="middle">OLLAMA</text>
+      <text x="90" y="63" fill="#8b949e" font-size="12" text-anchor="middle">ROCm · LOCAL LLM</text>
+    </g>
+
+    <rect x="40" y="202" width="920" height="46" rx="10" fill="#0d1117" stroke="#21262d"/>
+    <text x="66" y="231" fill="#8b949e" font-size="12">CONNECTED TOOLS</text>
+    <text x="258" y="231" fill="#f0f6fc" font-size="13">HOME ASSISTANT</text>
+    <text x="450" y="231" fill="#f0f6fc" font-size="13">NEXTCLOUD</text>
+    <text x="600" y="231" fill="#f0f6fc" font-size="13">FRIGATE</text>
+    <text x="724" y="231" fill="#f0f6fc" font-size="13">AUTOMATION</text>
+  </g>
+</svg>

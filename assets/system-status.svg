@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+  <title id="title">Odin system status</title>
+  <desc id="desc">Animated status dashboard for security, infrastructure, automation, local AI and coffee.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="268" rx="16" fill="url(#panel)" stroke="#30363d" stroke-width="2"/>
+  <path d="M28 62H972" stroke="#30363d" stroke-width="2" stroke-dasharray="7 9">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="30" y="39" fill="#f0f6fc" font-size="19" font-weight="700">ODIN // SYSTEM STATUS</text>
+    <text x="970" y="39" fill="#8b949e" font-size="13" text-anchor="end">LIVE TELEMETRY</text>
+
+    <g transform="translate(28 84)">
+      <rect width="220" height="70" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <circle cx="24" cy="25" r="6" fill="#3fb950" filter="url(#glow)">
+        <animate attributeName="r" values="5;8;5" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.55;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="31" fill="#f0f6fc" font-size="16" font-weight="700">SECURITY</text>
+      <text x="20" y="55" fill="#8b949e" font-size="12">ACTIVE · MONITORED</text>
+    </g>
+
+    <g transform="translate(270 84)">
+      <rect width="220" height="70" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <circle cx="24" cy="25" r="6" fill="#58a6ff" filter="url(#glow)">
+        <animate attributeName="r" values="5;8;5" dur="2.1s" begin=".3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.55;1" dur="2.1s" begin=".3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="31" fill="#f0f6fc" font-size="16" font-weight="700">INFRASTRUCTURE</text>
+      <text x="20" y="55" fill="#8b949e" font-size="12">ONLINE · CONTAINERIZED</text>
+    </g>
+
+    <g transform="translate(512 84)">
+      <rect width="220" height="70" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <circle cx="24" cy="25" r="6" fill="#a371f7" filter="url(#glow)">
+        <animate attributeName="r" values="5;8;5" dur="1.9s" begin=".6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.55;1" dur="1.9s" begin=".6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="31" fill="#f0f6fc" font-size="16" font-weight="700">AUTOMATION</text>
+      <text x="20" y="55" fill="#8b949e" font-size="12">ACTIVE · EVENT DRIVEN</text>
+    </g>
+
+    <g transform="translate(754 84)">
+      <rect width="218" height="70" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <circle cx="24" cy="25" r="6" fill="#39d0d8" filter="url(#glow)">
+        <animate attributeName="r" values="5;8;5" dur="2.3s" begin=".9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.55;1" dur="2.3s" begin=".9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="31" fill="#f0f6fc" font-size="16" font-weight="700">LOCAL AI</text>
+      <text x="20" y="55" fill="#8b949e" font-size="12">ONLINE · GPU ENABLED</text>
+    </g>
+
+    <g transform="translate(28 177)">
+      <text x="0" y="16" fill="#8b949e" font-size="12">LOAD</text>
+      <rect x="52" y="5" width="760" height="12" rx="6" fill="#21262d"/>
+      <rect x="52" y="5" width="0" height="12" rx="6" fill="#58a6ff">
+        <animate attributeName="width" values="0;580;520;650;580" keyTimes="0;.35;.55;.8;1" dur="4.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="836" y="16" fill="#f0f6fc" font-size="12">NOMINAL</text>
+
+      <text x="0" y="52" fill="#8b949e" font-size="12">COFFEE</text>
+      <rect x="52" y="41" width="760" height="12" rx="6" fill="#21262d"/>
+      <rect x="52" y="41" width="115" height="12" rx="6" fill="#d29922">
+        <animate attributeName="opacity" values="1;.35;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <text x="836" y="52" fill="#d29922" font-size="12" font-weight="700">CRITICAL</text>
+    </g>
+  </g>
+</svg>
