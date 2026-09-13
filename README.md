@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://avatars.githubusercontent.com/u/189249186?v=4" width="150" alt="Pixel art portrait of Enrique" />
+
 # `k1k3-d3v`
 
 ### Cybersecurity · Infrastructure · Linux · Automation · Local AI
@@ -96,11 +98,24 @@ I have professional experience working with **Data Loss Prevention**, security a
 
 ## `> project_odin`
 
-**Odin** is my personal homelab and automation platform: Linux, containers, home automation, self-hosting and local AI living under the same roof.
+### Flagship project
+
+**Odin** is my local-first, self-hosted personal assistant and homelab platform. It brings together Linux infrastructure, containers, home automation, personal memory, monitoring, backups and local AI under one system.
 
 <p align="center">
   <img src="./assets/odin-network.svg" width="100%" alt="Animated Project Odin architecture" />
 </p>
+
+<p align="center">
+  <a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal"><img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore the Odin repository" /></a>
+  <a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal/blob/main/Vi%CC%81deo-Odi%CC%81n.mp4"><img src="https://img.shields.io/badge/WATCH_DEMO-A371F7?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the Odin demo" /></a>
+</p>
+
+<a href="https://github.com/k1k3-d3v/Odin_ElAsistenteTotal/blob/main/Vi%CC%81deo-Odi%CC%81n.mp4">
+  <img src="https://raw.githubusercontent.com/k1k3-d3v/Odin_ElAsistenteTotal/main/figures/evidence/05-dashboard-resumen.png" width="100%" alt="Odin dashboard — click to watch the video demo" />
+</a>
+
+<p align="center"><sub>▶ Click the dashboard to watch Odin in action</sub></p>
 
 ---
 
@@ -116,9 +131,32 @@ The stack runs locally on **Odin**, using **ROCm**, **Ollama** and **Open WebUI*
 
 ## `> featured_projects`
 
-🚧 **Coming soon**
-
-I'm currently cleaning up and documenting some of my personal projects before publishing them here.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/k1k3-d3v/mundial-2026-fantasy">🌍 Mundial 2026 Fantasy</a></h3>
+      <p>A fully local fantasy and betting simulator for the 2026 World Cup, with automatic scoring, real tournament data and an administration panel.</p>
+      <p><code>FastAPI</code> <code>React</code> <code>Python</code> <code>Docker</code> <code>SQLite</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/k1k3-d3v/turnovr">🔄 TurnOvr</a></h3>
+      <p>A shift-planning and workforce organisation project focused on automating assignments, applying scheduling rules and simplifying daily operations.</p>
+      <p><code>Automation</code> <code>Scheduling</code> <code>Operations</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/k1k3-d3v/ASO-LAB">🐧 ASO Lab</a></h3>
+      <p>Linux systems-administration labs and scripts covering practical infrastructure and operating-system work.</p>
+      <p><code>Shell</code> <code>Linux</code> <code>Systems</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/k1k3-d3v/SOA-FIB">⚙️ SOA FIB</a></h3>
+      <p>Low-level operating-systems coursework built around C and the ZeOS educational kernel.</p>
+      <p><code>C</code> <code>Operating Systems</code> <code>ZeOS</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -139,5 +177,6 @@ I'm currently cleaning up and documenting some of my personal projects before pu
 ### `$ ping k1k3-d3v`
 
 [![GitHub](https://img.shields.io/badge/GitHub-k1k3--d3v-181717?style=for-the-badge&logo=github)](https://github.com/k1k3-d3v)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Enrique_de_Vicente-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enrique-de-vicente-tutor-castillo-01349b270/)
 
 </div>
